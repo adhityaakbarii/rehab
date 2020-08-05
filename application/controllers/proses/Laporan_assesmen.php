@@ -1,15 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Assesmen extends CI_Controller {
+class Laporan_assesmen extends CI_Controller {
 
 	var $tables =   "rh_client";		
-	var $page		=		"proses/assesmen";
+	var $page		=		"proses/laporan_assesmen";
 	var $pk     =   "id_client";
 	var $title  =   "Assesmen";
 	var $bread	=   "<ol class='breadcrumb'>
 	<li class='breadcrumb-item'><a>Proses</a></li>										
-	<li class='breadcrumb-item active'><a href='trans/booking'>Data Assesmen</a></li>										
+	<li class='breadcrumb-item active'><a href='trans/booking'>Data Laporan Assesmen</a></li>										
 	</ol>";				          
 
 
@@ -55,7 +55,7 @@ class Assesmen extends CI_Controller {
 		$data['bread']	= $this->bread;																													
 		$data['set']		= "view";		
 		$data['mode']		= "view";				
-		$data['dt_assesmen'] = $this->db->query("SELECT * FROM rh_instansi");
+		$data['dt_laporan_assesmen'] = $this->db->query("SELECT * FROM rh_instansi");
 		$this->template($data);	
 	}
 	public function add()
