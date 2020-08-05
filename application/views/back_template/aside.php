@@ -20,6 +20,7 @@
 						<li class="sidebar-item"><a href="proses/client/view" class="sidebar-link"><span class="hide-menu"> View Client </span></a></li>						
 						<li class="sidebar-item"><a href="proses/assesmen" class="sidebar-link"><span class="hide-menu"> Assesmen </span></a></li>					
 						<li class="sidebar-item"><a href="proses/laporan_assesmen" class="sidebar-link"><span class="hide-menu"> Laporan Assesmen </span></a></li>					
+						<li class="sidebar-item"><a href="proses/pelaporan_program_rehabilitas" class="sidebar-link"><span class="hide-menu"> Pelaporan Program Rehabilitas </span></a></li>					
 					</ul>
 				</li>				
 				<li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" aria-expanded="false"><i class="mdi mdi-newspaper"></i><span class="hide-menu">News</span></a></li>
