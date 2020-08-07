@@ -6,7 +6,7 @@ class Laporan_assesmen extends CI_Controller {
 	var $tables =   "rh_client";		
 	var $page		=		"proses/laporan_assesmen";
 	var $pk     =   "id_client";
-	var $title  =   "Assesmen";
+	var $title  =   "Laporan assesmen";
 	var $bread	=   "<ol class='breadcrumb'>
 	<li class='breadcrumb-item'><a>Proses</a></li>										
 	<li class='breadcrumb-item active'><a href='trans/booking'>Data Laporan Assesmen</a></li>										
