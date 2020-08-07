@@ -55,7 +55,7 @@ class Assesmen extends CI_Controller {
 		$data['bread']	= $this->bread;																													
 		$data['set']		= "view";		
 		$data['mode']		= "view";				
-		$data['dt_assesmen'] = $this->db->query("SELECT * FROM rh_instansi");
+		$data['dt_assesmen'] = $this->db->query("SELECT * FROM rh_client");
 		$this->template($data);	
 	}
 	public function add()
