@@ -253,7 +253,7 @@
 												<tr>
 													<td>Medis</td>
 													<td>
-														<select class="form-control">
+														<select name="id_staf" class="select2 form-control custom-select col-sm-6" <?php echo $read2 ?>>
 															<option>- Pilih -</option>
 															<option value="1">1</option>
 															<option value="2">2</option>
@@ -271,7 +271,7 @@
 												<tr>
 													<td>Pekerjaan / Dukungan</td>
 													<td>
-														<select class="form-control">
+														<select name="id_staf" class="select2 form-control custom-select col-sm-6" <?php echo $read2 ?>>
 															<option>- Pilih -</option>
 															<option value="1">1</option>
 															<option value="2">2</option>
@@ -289,7 +289,7 @@
 												<tr>
 													<td>Napza</td>
 													<td>
-														<select class="form-control">
+														<select name="id_staf" class="select2 form-control custom-select col-sm-6" <?php echo $read2 ?>>
 															<option>- Pilih -</option>
 															<option value="1">1</option>
 															<option value="2">2</option>
@@ -307,7 +307,7 @@
 												<tr>
 													<td>Legal</td>
 													<td>
-														<select class="form-control">
+														<select name="id_staf" class="select2 form-control custom-select col-sm-6" <?php echo $read2 ?>>
 															<option>- Pilih -</option>
 															<option value="1">1</option>
 															<option value="2">2</option>
@@ -325,7 +325,7 @@
 												<tr>
 													<td>Keluarga / Sosial</td>
 													<td>
-														<select class="form-control">
+														<select name="id_staf" class="select2 form-control custom-select col-sm-6" <?php echo $read2 ?>>
 															<option>- Pilih -</option>
 															<option value="1">1</option>
 															<option value="2">2</option>
@@ -343,7 +343,7 @@
 												<tr>
 													<td>Psikatris</td>
 													<td>
-														<select class="form-control">
+														<select name="id_staf" class="select2 form-control custom-select col-sm-6" <?php echo $read2 ?>>
 															<option>- Pilih -</option>
 															<option value="1">1</option>
 															<option value="2">2</option>
@@ -372,7 +372,7 @@
 									<div class="form-group row">
 										<label for="fname" class="col-sm-3 text-left control-label col-form-label" style="margin-left: 10px;">Diagnosis Lainnya</label>
 										<div class="col-sm-8">
-											<input type="text" <?php echo $read ?> value="<?php echo $tampil = ($row!='') ? $row->nama_assesmen : "" ; ?>" name="nama_assesmen" class="form-control" placeholder="">
+											
 										</div>
 									</div>
 									<div class="form-group row">

@@ -1,15 +1,15 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Pelaporan_program_rehabilitas extends CI_Controller {
+class Laporan_rawat_jalan extends CI_Controller {
 
 	var $tables =   "rh_client";		
-	var $page		=		"proses/pelaporan_program_rehabilitas";
+	var $page		=		"proses/laporan_rawat_jalan";
 	var $pk     =   "id_client";
-	var $title  =   "Pelaporan_program_rehabilitas";
+	var $title  =   "Laporan rawat jalan";
 	var $bread	=   "<ol class='breadcrumb'>
 	<li class='breadcrumb-item'><a>Proses</a></li>										
-	<li class='breadcrumb-item active'><a href='trans/booking'>Data Pelaporan_program_rehabilitas</a></li>										
+	<li class='breadcrumb-item active'><a href='trans/booking'>Data Laporan Rawat Jalan</a></li>										
 	</ol>";				          
 
 
@@ -55,7 +55,7 @@ class Pelaporan_program_rehabilitas extends CI_Controller {
 		$data['bread']	= $this->bread;																													
 		$data['set']		= "view";		
 		$data['mode']		= "view";				
-		$data['dt_pelaporan_program_rehabilitas'] = $this->db->query("SELECT * FROM rh_instansi");
+		$data['dt_laporan_rawat_jalan'] = $this->db->query("SELECT * FROM rh_instansi");
 		$this->template($data);	
 	}
 	public function add()

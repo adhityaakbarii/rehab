@@ -19,8 +19,13 @@
 						<li class="sidebar-item"><a href="proses/client/add" class="sidebar-link"><span class="hide-menu"> Add Client </span></a></li>
 						<li class="sidebar-item"><a href="proses/client/view" class="sidebar-link"><span class="hide-menu"> View Client </span></a></li>						
 						<li class="sidebar-item"><a href="proses/assesmen" class="sidebar-link"><span class="hide-menu"> Assesmen </span></a></li>					
-						<li class="sidebar-item"><a href="proses/laporan_assesmen" class="sidebar-link"><span class="hide-menu"> Laporan Assesmen </span></a></li>					
-						<li class="sidebar-item"><a href="proses/pelaporan_program_rehabilitas" class="sidebar-link"><span class="hide-menu"> Pelaporan Program Rehabilitas </span></a></li>					
+						<li class="sidebar-item"><a href="proses/laporan_assesmen" class="sidebar-link"><span class="hide-menu"> Laporan Assesmen </span></a></li>
+
+						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><span class="hide-menu"> Laporan Program Rehabilitas </span></a>
+							<ul aria-expanded="false" class="collapse  first-level">
+								<li class="sidebar-item"><a href="proses/laporan_rawat_jalan" class="sidebar-link"><span class="hide-menu"> Laporan Rawat Jalan </span></a></li>
+							</ul>
+						</li>					
 						<li class="sidebar-item"><a href="proses/pasca_rehabilitas" class="sidebar-link"><span class="hide-menu"> Data Pasca Rehabilitas </span></a></li>					
 					</ul>
 				</li>				
