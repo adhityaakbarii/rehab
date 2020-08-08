@@ -29,6 +29,7 @@
 						<li class="sidebar-item"> <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><span class="hide-menu"> Data Pasca Rehabilitas </span></a>
 							<ul aria-expanded="false" class="collapse  first-level">
 								<li class="sidebar-item"><a href="proses/pasca_rehabilitas/add" class="sidebar-link"><span class="hide-menu"> Program Pasca Rehabilitas </span></a></li>
+								<li class="sidebar-item"><a href="proses/pertemuan_kelompok/add" class="sidebar-link"><span class="hide-menu"> Pertemuan Kelompok </span></a></li>
 							</ul>
 						</li>												
 					</ul>
