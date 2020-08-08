@@ -54,7 +54,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="card">
-							<form class="form-horizontal" action="proses/rawat_jalan_2/<?php echo $form ?>" method="POST" enctype="multipart/form-data">
+							<form class="form-horizontal" action="proses/info_sesi/<?php echo $form ?>" method="POST" enctype="multipart/form-data">
 								<div class="card-header">
 									<h5>Laporan Rawat Jalan</h5>
 								</div>
@@ -102,7 +102,7 @@
 											<label for="fname" class="col-sm-6 text-left control-label col-form-label">:</label>
 										</div>
 										<div class="col-sm-12">
-											<label for="fname" class="col-sm-8 text-right control-label col-form-label"><a href="proses/info_sesi">Klik disini untuk melihat info sesi</a></label>
+											<label for="fname" class="col-sm-8 text-right control-label col-form-label"><a href="">Klik disini untuk melihat info sesi</a></label>
 										</div>
 									</div>
 									<div class="form-group row">
@@ -254,7 +254,7 @@
 											echo "
 											<tr>
 											<td>$no</td>
-											<td><a href='proses/rawat_jalan_2/detail?id=$row->id_staf'>$row->id</a></td>
+											<td><a href='proses/info_sesi/detail?id=$row->id_staf'>$row->id</a></td>
 											<td>$row->nama_lengkap</td>
 											<td>$row->instansi</td>
 											<td>$row->nama_assesmen</td>
@@ -262,8 +262,8 @@
 											<td>$row->status</td>
 											<td>$row->pekerjaan</td>
 											<td>"; ?>
-											<a class='btn btn-info btn-sm' href='proses/rawat_jalan_2/edit?id=<?php echo $row->id_staf ?>'><i class='fa fa-edit'></i></a>
-											<a class='btn btn-danger btn-sm' onclick="return confirm('Anda yakin?')" href='proses/rawat_jalan_2/delete?id=<?php echo $row->id_staf ?>'><i class='fa fa-trash'></i></a>
+											<a class='btn btn-info btn-sm' href='proses/info_sesi/edit?id=<?php echo $row->id_staf ?>'><i class='fa fa-edit'></i></a>
+											<a class='btn btn-danger btn-sm' onclick="return confirm('Anda yakin?')" href='proses/info_sesi/delete?id=<?php echo $row->id_staf ?>'><i class='fa fa-trash'></i></a>
 										</td>
 									</tr>
 									<?php
@@ -289,7 +289,7 @@
 	function ambil_kab(){  
 		var id_provinsi  = $("#id_provinsi").val();   
 		$.ajax({
-			url : "<?php echo site_url('proses/rawat_jalan_2/ambil_kab')?>",
+			url : "<?php echo site_url('proses/info_sesi/ambil_kab')?>",
 			type:"POST",
 			data:"id_provinsi="+id_provinsi,
 			cache:false,   
@@ -301,7 +301,7 @@
 	function ambil_kec(){  
 		var id_kabupaten  = $("#id_kabupaten").val();   
 		$.ajax({
-			url : "<?php echo site_url('proses/rawat_jalan_2/ambil_kec')?>",
+			url : "<?php echo site_url('proses/info_sesi/ambil_kec')?>",
 			type:"POST",
 			data:"id_kabupaten="+id_kabupaten,
 			cache:false,   
@@ -313,7 +313,7 @@
 	function ambil_kel(){  
 		var id_kecamatan  = $("#id_kecamatan").val();   
 		$.ajax({
-			url : "<?php echo site_url('proses/rawat_jalan_2/ambil_kel')?>",
+			url : "<?php echo site_url('proses/info_sesi/ambil_kel')?>",
 			type:"POST",
 			data:"id_kecamatan="+id_kecamatan,
 			cache:false,   

@@ -6,10 +6,10 @@ class Pasca_rehabilitas extends CI_Controller {
 	var $tables =   "rh_client";		
 	var $page		="proses/pasca_rehabilitas";
 	var $pk     =   "id_client";
-	var $title  =   "Pasca_rehabilitas";
+	var $title  =   "Pasca Rehabilitas";
 	var $bread	=   "<ol class='breadcrumb'>
 	<li class='breadcrumb-item'><a>Proses</a></li>										
-	<li class='breadcrumb-item active'><a href='trans/booking'>Data Pasca_rehabilitas</a></li>										
+	<li class='breadcrumb-item active'><a href='trans/booking'>Data Pasca rehabilitas</a></li>										
 	</ol>";				          
 
 
