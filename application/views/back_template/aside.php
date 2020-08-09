@@ -30,6 +30,8 @@
 							<ul aria-expanded="false" class="collapse  first-level">
 								<li class="sidebar-item"><a href="proses/pasca_rehabilitas/add" class="sidebar-link"><span class="hide-menu"> Program Pasca Rehabilitas </span></a></li>
 								<li class="sidebar-item"><a href="proses/pertemuan_kelompok/add" class="sidebar-link"><span class="hide-menu"> Pertemuan Kelompok </span></a></li>
+								<li class="sidebar-item"><a href="proses/catatan_perkembangan/add" class="sidebar-link"><span class="hide-menu"> Catatan Perkembangan </span></a></li>
+								<li class="sidebar-item"><a href="proses/catatan_pemantauan_pendamping/add" class="sidebar-link"><span class="hide-menu"> Catatan Pemantauan Pendamping </span></a></li>
 							</ul>
 						</li>												
 					</ul>
